@@ -5,6 +5,9 @@ import { Heart, MessageCircle, Share2, MoreHorizontal } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { VideoPlayer } from "./video-player"
+import { CommentBox } from "./comment-box"
+import { CommentList } from "./comment-list"
+import { useCommentsStore } from "@/lib/comments-store"
 import type { Post } from "@/lib/store"
 
 interface PostCardProps {
@@ -26,10 +29,17 @@ function formatTimestamp(date: Date): string {
 export function PostCard({ post }: PostCardProps) {
   const [liked, setLiked] = useState(false)
   const [likeCount, setLikeCount] = useState(post.likes)
+  const [showComments, setShowComments] = useState(false)
+  const { getCommentsByPostId } = useCommentsStore()
+  const commentCount = getCommentsByPostId(post.id).length
 
   const handleLike = () => {
     setLiked(!liked)
     setLikeCount((prev) => (liked ? prev - 1 : prev + 1))
+  }
+
+  const handleToggleComments = () => {
+    setShowComments((prev) => !prev)
   }
 
   return (
@@ -68,15 +78,27 @@ export function PostCard({ post }: PostCardProps) {
           <Heart className={`h-4 w-4 ${liked ? "fill-current" : ""}`} />
           <span>{likeCount}</span>
         </Button>
-        <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground gap-2 rounded-full">
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={handleToggleComments}
+          className={`gap-2 rounded-full ${showComments ? "text-primary" : "text-muted-foreground hover:text-foreground"}`}
+        >
           <MessageCircle className="h-4 w-4" />
-          <span>Reply</span>
+          <span>Comment {commentCount > 0 && `(${commentCount})`}</span>
         </Button>
         <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground gap-2 rounded-full">
           <Share2 className="h-4 w-4" />
           <span>Share</span>
         </Button>
       </div>
+
+      {showComments && (
+        <div className="mt-4">
+          <CommentList postId={post.id} />
+          <CommentBox postId={post.id} />
+        </div>
+      )}
     </div>
   )
 }

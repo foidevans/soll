@@ -22,20 +22,61 @@ export default function SignupPage() {
   const { registerUser, isLoading: isRegistering, isConfirming, isPending } = useUserRegistry()
   const [step, setStep] = useState(1)
   const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
   const [selectedInterests, setSelectedInterests] = useState<string[]>([])
   const [isCreating, setIsCreating] = useState(false)
+  const [errors, setErrors] = useState({ username: "", password: "", confirmPassword: "" })
 
   const toggleInterest = (interest: string) => {
     setSelectedInterests((prev) => (prev.includes(interest) ? prev.filter((i) => i !== interest) : [...prev, interest]))
   }
 
+  const validateStep1 = (): boolean => {
+    const newErrors = { username: "", password: "", confirmPassword: "" }
+    let isValid = true
+
+    if (!username.trim()) {
+      newErrors.username = "Username is required"
+      isValid = false
+    }
+
+    if (!password) {
+      newErrors.password = "Password is required"
+      isValid = false
+    } else if (password.length < 6) {
+      newErrors.password = "Password must be at least 6 characters"
+      isValid = false
+    }
+
+    if (!confirmPassword) {
+      newErrors.confirmPassword = "Please confirm your password"
+      isValid = false
+    } else if (password !== confirmPassword) {
+      newErrors.confirmPassword = "Passwords do not match"
+      isValid = false
+    }
+
+    setErrors(newErrors)
+    return isValid
+  }
+
+  const handleStep1Continue = () => {
+    if (validateStep1()) {
+      setStep(2)
+    }
+  }
+
   const handleCreateAccount = async () => {
-    if (!username || !address) return
+    if (!username || !address || !password) return
 
     setIsCreating(true)
 
     try {
-      // Call smart contract to register user
+      const hashedPassword = btoa(password)
+      localStorage.setItem("soll_user_password", hashedPassword)
+      localStorage.setItem("soll_user_username", username)
+
       const result = await registerUser(username)
 
       if (result) {
@@ -78,7 +119,7 @@ export default function SignupPage() {
 
         {/* Progress indicators */}
         <div className="flex justify-center gap-2 mb-8">
-          {[1, 2, 3].map((s) => (
+          {[1, 2, 3, 4].map((s) => (
             <div
               key={s}
               className={`h-2 rounded-full transition-all duration-300 ${
@@ -90,32 +131,79 @@ export default function SignupPage() {
 
         {/* Card */}
         <div className="bg-card rounded-3xl p-8 border border-border shadow-xl">
-          {/* Step 1: Username */}
+          {/* Step 1: Username and Password */}
           {step === 1 && (
             <div className="space-y-6 animate-slide-in">
               <div>
-                <h2 className="text-xl font-semibold text-foreground mb-2">Choose your username</h2>
-                <p className="text-sm text-muted-foreground">This is how others will see you on Soll</p>
+                <h2 className="text-xl font-semibold text-foreground mb-2">Create your account</h2>
+                <p className="text-sm text-muted-foreground">Choose your username and set a secure password</p>
               </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="username" className="text-foreground">
-                  Username
-                </Label>
-                <Input
-                  id="username"
-                  placeholder="satoshi"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  className="bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl"
-                />
-                {username && <p className="text-sm text-muted-foreground">{username}.soll</p>}
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="username" className="text-foreground">
+                    Username
+                  </Label>
+                  <Input
+                    id="username"
+                    placeholder="satoshi"
+                    value={username}
+                    onChange={(e) => {
+                      setUsername(e.target.value)
+                      setErrors((prev) => ({ ...prev, username: "" }))
+                    }}
+                    className={`bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl ${
+                      errors.username ? "border-destructive" : ""
+                    }`}
+                  />
+                  {username && !errors.username && <p className="text-sm text-muted-foreground">{username}.soll</p>}
+                  {errors.username && <p className="text-sm text-destructive">{errors.username}</p>}
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="password" className="text-foreground">
+                    Password
+                  </Label>
+                  <Input
+                    id="password"
+                    type="password"
+                    placeholder="At least 6 characters"
+                    value={password}
+                    onChange={(e) => {
+                      setPassword(e.target.value)
+                      setErrors((prev) => ({ ...prev, password: "" }))
+                    }}
+                    className={`bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl ${
+                      errors.password ? "border-destructive" : ""
+                    }`}
+                  />
+                  {errors.password && <p className="text-sm text-destructive">{errors.password}</p>}
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="confirmPassword" className="text-foreground">
+                    Confirm Password
+                  </Label>
+                  <Input
+                    id="confirmPassword"
+                    type="password"
+                    placeholder="Re-enter your password"
+                    value={confirmPassword}
+                    onChange={(e) => {
+                      setConfirmPassword(e.target.value)
+                      setErrors((prev) => ({ ...prev, confirmPassword: "" }))
+                    }}
+                    className={`bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl ${
+                      errors.confirmPassword ? "border-destructive" : ""
+                    }`}
+                  />
+                  {errors.confirmPassword && <p className="text-sm text-destructive">{errors.confirmPassword}</p>}
+                </div>
               </div>
 
               <Button
                 className="w-full h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
-                onClick={() => setStep(2)}
-                disabled={!username}
+                onClick={handleStep1Continue}
               >
                 Continue
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -216,8 +304,50 @@ export default function SignupPage() {
                 </Button>
                 <Button
                   className="flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
+                  onClick={() => setStep(4)}
+                >
+                  Continue
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Step 4: Create Account */}
+          {step === 4 && (
+            <div className="space-y-6 animate-slide-in">
+              <div>
+                <h2 className="text-xl font-semibold text-foreground mb-2">Ready to join Soll</h2>
+                <p className="text-sm text-muted-foreground">Review your details and create your account</p>
+              </div>
+
+              <div className="space-y-3 p-4 rounded-2xl bg-secondary/30 border border-border">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-muted-foreground">Username</span>
+                  <span className="text-sm font-medium text-foreground">{username}.soll</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-muted-foreground">Wallet</span>
+                  <span className="text-sm font-medium text-foreground">{shortenedAddress}</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-muted-foreground">Interests</span>
+                  <span className="text-sm font-medium text-foreground">{selectedInterests.length} selected</span>
+                </div>
+              </div>
+
+              <div className="flex gap-3">
+                <Button
+                  variant="outline"
+                  className="flex-1 h-12 rounded-xl border-border text-foreground bg-transparent"
+                  onClick={() => setStep(3)}
+                >
+                  Back
+                </Button>
+                <Button
+                  className="flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={handleCreateAccount}
-                  disabled={isCreating || isRegistering}
+                  disabled={isCreating || isRegistering || !isConnected}
                 >
                   {isCreating || isRegistering ? (
                     <>
@@ -226,7 +356,7 @@ export default function SignupPage() {
                     </>
                   ) : (
                     <>
-                      Get Started
+                      Create Account
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </>
                   )}
