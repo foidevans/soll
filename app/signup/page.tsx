@@ -2,39 +2,60 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { CheckCircle2, ArrowRight, Loader2 } from "lucide-react"
+import { CheckCircle2, ArrowRight, Loader2, Eye, EyeOff, AlertCircle } from "lucide-react"
+import { ConnectButton } from "@rainbow-me/rainbowkit"
+import { useAccount } from "wagmi"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { SollLogo } from "@/components/ui/soll-logo"
-import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-import { useWallet } from "@/hooks/use-wallet"
 import { useAppStore } from "@/lib/store"
 import { FloatingShapes } from "@/components/landing/floating-shapes"
 import { useUserRegistry } from "@/hooks/blockchain"
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
 const interests = ["DeFi", "NFTs", "DAOs", "Gaming", "Trading", "Development", "Art", "Music"]
 
 export default function SignupPage() {
   const router = useRouter()
-  const { address, isConnected, shortenedAddress, isConnecting, connect, isCorrectNetwork } = useWallet()
+  const { address, isConnected, chainId } = useAccount()
+  const isCorrectNetwork = chainId === 534351 // Scroll Sepolia
   const { setCurrentUser } = useAppStore()
   const { registerUser, isLoading: isRegistering, isConfirming, isPending } = useUserRegistry()
   const [step, setStep] = useState(1)
   const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
+  const [showPassword, setShowPassword] = useState(false)
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false)
   const [selectedInterests, setSelectedInterests] = useState<string[]>([])
   const [isCreating, setIsCreating] = useState(false)
+  const [showSuccessModal, setShowSuccessModal] = useState(false)
 
   const toggleInterest = (interest: string) => {
     setSelectedInterests((prev) => (prev.includes(interest) ? prev.filter((i) => i !== interest) : [...prev, interest]))
   }
 
+  const usernameError = username.length > 0 && username.length < 3 ? "Username must be at least 3 characters" : ""
+  const passwordError = password.length > 0 && password.length < 6 ? "Password must be at least 6 characters" : ""
+  const confirmPasswordError =
+    confirmPassword.length > 0 && password !== confirmPassword ? "Passwords do not match" : ""
+
+  const isStep1Valid = username.length >= 3 && password.length >= 6 && password === confirmPassword
+  const isStep2Valid = isConnected && isCorrectNetwork
+
+  const shortenedAddress = address ? `${address.slice(0, 6)}...${address.slice(-4)}` : null
+
   const handleCreateAccount = async () => {
-    if (!username || !address) return
+    if (!username || !address || !isStep1Valid) return
 
     setIsCreating(true)
 
     try {
+      const hashedPassword = btoa(password)
+      localStorage.setItem("soll_user_password", hashedPassword)
+      localStorage.setItem("soll_username", username)
+
       // Call smart contract to register user
       const result = await registerUser(username)
 
@@ -46,11 +67,13 @@ export default function SignupPage() {
           bio: "New to the decentralized world",
           avatar: "/diverse-profile-avatars.png",
         })
-        router.push("/home")
+        setShowSuccessModal(true)
+        setTimeout(() => {
+          router.push("/home")
+        }, 2000)
       }
     } catch (error) {
       console.error("Registration error:", error)
-    } finally {
       setIsCreating(false)
     }
   }
@@ -90,32 +113,98 @@ export default function SignupPage() {
 
         {/* Card */}
         <div className="bg-card rounded-3xl p-8 border border-border shadow-xl">
-          {/* Step 1: Username */}
+          {/* Step 1: Username & Password */}
           {step === 1 && (
             <div className="space-y-6 animate-slide-in">
               <div>
-                <h2 className="text-xl font-semibold text-foreground mb-2">Choose your username</h2>
-                <p className="text-sm text-muted-foreground">This is how others will see you on Soll</p>
+                <h2 className="text-xl font-semibold text-foreground mb-2">Create your account</h2>
+                <p className="text-sm text-muted-foreground">Choose a username and secure password</p>
               </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="username" className="text-foreground">
-                  Username
-                </Label>
-                <Input
-                  id="username"
-                  placeholder="satoshi"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  className="bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl"
-                />
-                {username && <p className="text-sm text-muted-foreground">{username}.soll</p>}
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="username" className="text-foreground">
+                    Username
+                  </Label>
+                  <Input
+                    id="username"
+                    placeholder="satoshi"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    className="bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl"
+                  />
+                  {usernameError && (
+                    <p className="text-sm text-destructive flex items-center gap-1">
+                      <AlertCircle className="h-3 w-3" />
+                      {usernameError}
+                    </p>
+                  )}
+                  {username && !usernameError && <p className="text-sm text-muted-foreground">{username}.soll</p>}
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="password" className="text-foreground">
+                    Password
+                  </Label>
+                  <div className="relative">
+                    <Input
+                      id="password"
+                      type={showPassword ? "text" : "password"}
+                      placeholder="Enter password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      className="bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl pr-10"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                    >
+                      {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                    </button>
+                  </div>
+                  {passwordError && (
+                    <p className="text-sm text-destructive flex items-center gap-1">
+                      <AlertCircle className="h-3 w-3" />
+                      {passwordError}
+                    </p>
+                  )}
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="confirmPassword" className="text-foreground">
+                    Confirm Password
+                  </Label>
+                  <div className="relative">
+                    <Input
+                      id="confirmPassword"
+                      type={showConfirmPassword ? "text" : "password"}
+                      placeholder="Confirm password"
+                      value={confirmPassword}
+                      onChange={(e) => setConfirmPassword(e.target.value)}
+                      className="bg-background border-border text-foreground placeholder:text-muted-foreground h-12 rounded-xl pr-10"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                    >
+                      {showConfirmPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                    </button>
+                  </div>
+                  {confirmPasswordError && (
+                    <p className="text-sm text-destructive flex items-center gap-1">
+                      <AlertCircle className="h-3 w-3" />
+                      {confirmPasswordError}
+                    </p>
+                  )}
+                </div>
               </div>
 
               <Button
                 className="w-full h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                 onClick={() => setStep(2)}
-                disabled={!username}
+                disabled={!isStep1Valid}
               >
                 Continue
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -146,7 +235,9 @@ export default function SignupPage() {
                         <path d="M16 10h4v4h-4z" />
                       </svg>
                     </div>
-                    <ConnectWalletButton showDisconnect={false} />
+                    <div className="flex justify-center">
+                      <ConnectButton showBalance={false} />
+                    </div>
                   </div>
                 ) : (
                   <div className="text-center">
@@ -173,7 +264,7 @@ export default function SignupPage() {
                 <Button
                   className="flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={() => setStep(3)}
-                  disabled={!isConnected || !isCorrectNetwork}
+                  disabled={!isStep2Valid}
                 >
                   Continue
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -240,6 +331,20 @@ export default function SignupPage() {
           Already have an account? <button className="text-primary hover:underline font-medium">Sign in</button>
         </p>
       </div>
+
+      <Dialog open={showSuccessModal} onOpenChange={setShowSuccessModal}>
+        <DialogContent className="sm:max-w-md bg-card border-border text-center">
+          <DialogHeader className="items-center">
+            <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center mx-auto mb-4">
+              <CheckCircle2 className="w-8 h-8 text-accent-foreground" />
+            </div>
+            <DialogTitle className="text-foreground text-xl">Welcome to Soll!</DialogTitle>
+            <DialogDescription className="text-muted-foreground">
+              Your account has been created successfully. Redirecting you to your feed...
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
     </div>
   )
 }

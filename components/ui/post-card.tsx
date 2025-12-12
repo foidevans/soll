@@ -1,10 +1,15 @@
 "use client"
 
 import { useState } from "react"
-import { Heart, MessageCircle, Share2, MoreHorizontal } from "lucide-react"
+import { Heart, MessageCircle, Share2, MoreHorizontal, ChevronDown, ChevronUp } from "lucide-react"
+import { useAccount } from "wagmi"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { VideoPlayer } from "./video-player"
+import { CommentBox } from "./comment-box"
+import { CommentList } from "./comment-list"
+import { ConnectWalletModal } from "./connect-wallet-modal"
+import { useComments } from "@/lib/comments-store"
 import type { Post } from "@/lib/store"
 
 interface PostCardProps {
@@ -24,12 +29,48 @@ function formatTimestamp(date: Date): string {
 }
 
 export function PostCard({ post }: PostCardProps) {
+  const { address, isConnected } = useAccount()
+  const { addComment, getCommentsByPostId } = useComments()
   const [liked, setLiked] = useState(false)
   const [likeCount, setLikeCount] = useState(post.likes)
+  const [showComments, setShowComments] = useState(false)
+  const [showCommentBox, setShowCommentBox] = useState(false)
+  const [showConnectModal, setShowConnectModal] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
+  const comments = getCommentsByPostId(post.id)
 
   const handleLike = () => {
     setLiked(!liked)
     setLikeCount((prev) => (liked ? prev - 1 : prev + 1))
+  }
+
+  const handleCommentClick = () => {
+    if (!isConnected) {
+      setShowConnectModal(true)
+      return
+    }
+    setShowCommentBox(!showCommentBox)
+    if (!showCommentBox) {
+      setShowComments(true)
+    }
+  }
+
+  const handleSubmitComment = async (text: string) => {
+    if (!isConnected || !address) {
+      setShowConnectModal(true)
+      return
+    }
+
+    setIsSubmitting(true)
+    // Simulate a small delay for UX
+    await new Promise((resolve) => setTimeout(resolve, 300))
+
+    // Use shortened address as username for now
+    const username = `${address.slice(0, 6)}...${address.slice(-4)}`
+    addComment(post.id, username, undefined, text)
+    setIsSubmitting(false)
+    setShowComments(true)
   }
 
   return (
@@ -68,15 +109,46 @@ export function PostCard({ post }: PostCardProps) {
           <Heart className={`h-4 w-4 ${liked ? "fill-current" : ""}`} />
           <span>{likeCount}</span>
         </Button>
-        <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground gap-2 rounded-full">
-          <MessageCircle className="h-4 w-4" />
-          <span>Reply</span>
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={handleCommentClick}
+          className={`gap-2 rounded-full ${showCommentBox ? "text-primary" : "text-muted-foreground hover:text-foreground"}`}
+        >
+          <MessageCircle className={`h-4 w-4 ${showCommentBox ? "fill-current" : ""}`} />
+          <span>Comment</span>
+          {comments.length > 0 && <span className="text-xs">({comments.length})</span>}
         </Button>
         <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground gap-2 rounded-full">
           <Share2 className="h-4 w-4" />
           <span>Share</span>
         </Button>
       </div>
+
+      {showCommentBox && (
+        <div className="mt-4 pt-3 border-t border-border/50 animate-slide-in">
+          <CommentBox onSubmit={handleSubmitComment} isSubmitting={isSubmitting} />
+        </div>
+      )}
+
+      {comments.length > 0 && (
+        <div className="mt-2">
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setShowComments(!showComments)}
+            className="text-muted-foreground hover:text-foreground gap-1 -ml-2"
+          >
+            {showComments ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+            <span>
+              {showComments ? "Hide" : "Show"} {comments.length} comment{comments.length !== 1 ? "s" : ""}
+            </span>
+          </Button>
+          {showComments && <CommentList comments={comments} />}
+        </div>
+      )}
+
+      <ConnectWalletModal open={showConnectModal} onOpenChange={setShowConnectModal} />
     </div>
   )
 }
