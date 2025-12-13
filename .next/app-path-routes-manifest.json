@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/communities/page": "/communities",
+  "/create/page": "/create",
+  "/home/page": "/home",
+  "/network/page": "/network",
+  "/page": "/",
+  "/profile/page": "/profile",
+  "/signup/page": "/signup"
+}

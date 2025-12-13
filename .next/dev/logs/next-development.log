@@ -1,2698 +1,624 @@
-[00:00:02.435] Server  LOG      ✓ Ready in 1625ms
-[00:01:00.725] Server  LOG      ○ Compiling / ...
-[00:01:09.856] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:09.856] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:09.856] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765580262641}
-[00:32:31.595] Server  LOG      ✓ Compiled in 51s
-[00:38:07.609] Server  LOG      ✓ Compiled in 3.1s
-[00:39:31.885] Server  LOG      ○ Compiling / ...
-[00:39:45.532] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:39:47.274] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:39:48.611] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:41:52.662] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:41:57.239] Server  LOG      ✓ Compiled in 3.8s
-[00:42:01.853] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:03.364] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:04.372] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:04.414] Server  LOG      ✓ Compiled in 7.2s
-[00:42:04.528] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:06.677] Server  LOG      ✓ Compiled in 85ms
-[00:42:07.283] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:42:14.413] Server  LOG      ✓ Compiled in 1214ms
-[00:42:14.414] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:17.385] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:19.871] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:42:28.041] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:30.297] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:42:37.128] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:39.381] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:40.179] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:40.239] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:41.315] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:42:55.673] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:42:58.141] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:58.796] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:42:58.844] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:43:00.283] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:43:09.552] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:43:11.923] Server  ERROR    ⨯ ReferenceError: WalletProvider is not defined
-[00:43:12.314] Server  WARN    Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
-[00:43:12.451] Server  ERROR    ⨯ ReferenceError: WalletProvider is not defined
-[00:43:12.552] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:43:13.358] Server  WARN    [Reown Config] Failed to fetch remote project configuration. Using local/default values. Error: HTTP status code: 403
-[00:43:16.282] Browser ERROR   uncaughtError: ReferenceError: WalletProvider is not defined
-[00:43:17.285] Browser WARN    Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
-[00:43:17.285] Browser WARN    [Reown Config] Failed to fetch remote project configuration. Using local/default values. {}
-[00:43:38.008] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:38.014] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:38.017] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:38.023] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.691] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.693] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.695] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.698] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.713] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.799] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.814] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.818] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.852] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.862] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.871] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.876] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.944] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.947] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.950] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.953] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.970] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.974] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.976] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.981] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:43:40.984] Server  LOG      ✓ Compiled in 11.6s
-[00:43:42.283] Browser ERROR   ./components/providers/web3-provider.tsx:224:1
-Module not found: Can't resolve './wallet-provider'
-  222 | import { CommentsProvider } from "@/lib/comments-store"
-  223 | import { AppStoreProvider } from "@/lib/store"
-> 224 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  225 |
-  226 | const config = getDefaultConfig({
-  227 |   appName: "Soll",
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:47:09.486] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.501] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.504] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.513] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.527] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.533] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.535] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.543] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.557] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.561] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.567] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.571] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.585] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.590] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.593] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.596] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.609] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.612] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.614] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.622] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.634] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.636] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.639] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.642] Server  ERROR    ⨯ ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:47:09.649] Server  LOG      ✓ Compiled in 494ms
-[00:47:10.287] Browser ERROR   ./components/providers/web3-provider.tsx:225:1
-Module not found: Can't resolve './wallet-provider'
-  223 | import type React from "react"
-  224 | import { AppStoreProvider } from "@/lib/store"
-> 225 | import { WalletProvider } from "./wallet-provider"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |
-  227 | const config = getDefaultConfig({
-  228 |   appName: "Soll",
-
-Import trace:
-  Server Component:
-    ./components/providers/web3-provider.tsx
-    ./app/layout.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:47:27.306] Server  LOG      ✓ Compiled in 15.3s
-[00:47:31.215] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:47:31.342] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:31.343] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/providers/web3-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:47:31.343] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:32.298] Browser WARN    WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 2 times.
-[00:47:32.298] Browser WARN    WalletConnect Core is already initialized. This is probably a mistake and can lead to unexpected behavior. Init() was called 2 times.
-[00:47:32.298] Browser WARN    [Reown Config] Failed to fetch remote project configuration. Using local/default values. {}
-[00:47:37.071] Server  LOG      ✓ Compiled in 6.7s
-[00:47:37.273] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:37.274] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/@walletconnect/ethereum-provider/dist/index.es.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:47:37.286] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:39.285] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:47:39.285] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:47:39.285] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765583051831}
-[00:48:40.629] Server  LOG      ○ Compiling /signup ...
-[00:48:45.323] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765583118035}
-[01:12:50.458] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765584563237}
-[01:12:54.865] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765584567636}
-[01:35:56.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/providers/web3-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:35:56.558] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
+[00:00:04.407] Server  LOG      ✓ Ready in 3.1s
+[00:00:46.089] Server  LOG      ○ Compiling /signup ...
+[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610089170}
+[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610093732}
+[00:01:14.452] Server  ERROR    ⨯ ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+
+
+
+./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+
+
+[00:01:14.804] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:14.804] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:16.436] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:16.436] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:16.975] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:16.975] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:17.489] Server  LOG      ○ Compiling /_error ...
+[00:01:18.142] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:18.142] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:18.261] Server  ERROR    ⨯ ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+
+
+
+./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+
+
+[00:01:18.864] Browser ERROR   uncaughtError: Error: ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+
+
+[00:01:19.000] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:19.000] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:19.262] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:01:19.262] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:06:18.885] Server  LOG      ✓ Compiled in 391ms
+[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610413153}
+[00:06:24.982] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
+[00:06:43.830] Server  LOG      ✓ Compiled in 148ms
+[00:06:43.982] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:06:43.984] Browser ERROR   ./components/ui/post-card.tsx:10:1
+Export useCommentsStore doesn't exist in target module
+   8 | import { CommentBox } from "./comment-box"
+   9 | import { CommentList } from "./comment-list"
+> 10 | import { useCommentsStore } from "@/lib/comments-store"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import type { Post } from "@/lib/store"
+  12 |
+  13 | interface PostCardProps {
+
+The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
+Did you mean to import useComments?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/post-card.tsx [Client Component Browser]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/post-card.tsx [Client Component SSR]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:07:36.532] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610487953}
+[00:07:39.439] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:39.441] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
+[00:07:39.745] Server  LOG      ✓ Compiled in 120ms
+[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610491482}
+[00:07:43.982] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
+[00:07:45.958] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:45.978] Server  LOG      ✓ Compiled in 177ms
+[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610497997}
+[00:07:49.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:14:26.274] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:26.285] Server  LOG      ✓ Compiled in 116ms
+[00:14:27.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:27.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:14:27.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610898401}
+[00:14:30.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:15:06.605] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:06.616] Server  LOG      ✓ Compiled in 244ms
+[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610938479}
+[00:15:09.812] Server  LOG      ✓ Compiled in 140ms
+[00:15:10.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:17:07.162] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:07.181] Server  LOG      ✓ Compiled in 77ms
+[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611059466}
+[00:17:09.718] Server  LOG      ✓ Compiled in 73ms
+[00:17:11.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:30:47.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:47.153] Server  LOG      ✓ Compiled in 189ms
+[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611880715}
+[00:30:52.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:30:55.811] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:55.830] Server  LOG      ✓ Compiled in 195ms
+[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611887670}
+[00:30:59.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:31:52.480] Server  LOG      ✓ Compiled in 262ms
+[00:31:52.983] Browser ERROR   ./app/home/page.tsx:7:1
+Export PostCard doesn't exist in target module
+   5 | import { Plus } from "lucide-react"
+   6 | import { AppLayout } from "@/components/layout/app-layout"
+>  7 | import { PostCard } from "@/components/ui/post-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PostCardSkeleton } from "@/components/ui/post-card-skeleton"
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { useAppStore } from "@/lib/store"
+
+The export PostCard was not found in module [project]/components/ui/post-card.tsx [app-client] (ecmascript).
 The module has no exports at all.
 All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
 
   Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:31:52.983] Browser ERROR   ./app/home/page.tsx:7:1
+Export PostCard doesn't exist in target module
+   5 | import { Plus } from "lucide-react"
+   6 | import { AppLayout } from "@/components/layout/app-layout"
+>  7 | import { PostCard } from "@/components/ui/post-card"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { PostCardSkeleton } from "@/components/ui/post-card-skeleton"
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { useAppStore } from "@/lib/store"
 
-
-
-./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
+The export PostCard was not found in module [project]/components/ui/post-card.tsx [app-ssr] (ecmascript).
 The module has no exports at all.
 All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 
 Import traces:
   Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:35:56.684] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:35:56.787] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:35:56.822] Server  LOG      ✓ Compiled in 1876ms
-[01:35:58.294] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:35:58.294] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:35:59.635] Server  LOG      ○ Compiling /_error ...
-[01:36:04.446] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:04.447] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:04.447] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:04.447] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:05.091] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:05.091] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:05.142] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:36:06.503] Browser ERROR   uncaughtError: Error: ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:36:07.285] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:07.286] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:07.286] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:36:07.286] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:38:03.228] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Module not found: Can't resolve '@/context/wallet-context'
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/context/wallet-context"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-Import map: aliased to relative './context/wallet-context' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:03.239] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Module not found: Can't resolve '@/context/wallet-context'
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/context/wallet-context"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-Import map: aliased to relative './context/wallet-context' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:03.252] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Module not found: Can't resolve '@/context/wallet-context'
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/context/wallet-context"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-Import map: aliased to relative './context/wallet-context' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:03.257] Server  ERROR    ⨯ ./hooks/use-wallet.ts:3:1
-Module not found: Can't resolve '@/context/wallet-context'
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/context/wallet-context"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-Import map: aliased to relative './context/wallet-context' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:03.433] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Module not found: Can't resolve '@/context/wallet-context'
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/context/wallet-context"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-Import map: aliased to relative './context/wallet-context' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[01:39:39.835] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:39.836] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:44.351] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:44.351] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:44.351] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:44.351] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:53.767] Server  ERROR    ⨯ ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-
-./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:39:54.079] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.079] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:54.647] Browser ERROR   uncaughtError: Error: ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-
-
-[01:39:55.126] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:39:55.126] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:02.556] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:02.556] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:20.175] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:20.176] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:20.176] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:40:20.176] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:14.825] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:14.825] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:54.776] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:54.776] Browser ERROR   ./app/signup/page.tsx:11:1
-Export useWallet doesn't exist in target module
-   9 | import { SollLogo } from "@/components/ui/soll-logo"
-  10 | import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
-> 11 | import { useWallet } from "@/hooks/use-wallet"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  12 | import { useAppStore } from "@/lib/store"
-  13 | import { FloatingShapes } from "@/components/landing/floating-shapes"
-  14 | import { useUserRegistry } from "@/hooks/blockchain"
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:54.776] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:41:54.776] Browser ERROR   ./components/ui/connect-wallet-button.tsx:5:1
-Export useWallet doesn't exist in target module
-  3 | import { Wallet, Loader2, CheckCircle2, LogOut, AlertTriangle } from "lucide-react"
-  4 | import { Button } from "@/components/ui/button"
-> 5 | import { useWallet } from "@/hooks/use-wallet"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 | import { NETWORK } from "@/lib/contracts/config"
-  7 |
-  8 | interface ConnectWalletButtonProps {
-
-The export useWallet was not found in module [project]/hooks/use-wallet.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/connect-wallet-button.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/connect-wallet-button.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:42:02.230] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:42:02.230] Browser ERROR   ./hooks/use-wallet.ts:3:1
-Export useWalletContext doesn't exist in target module
-  1 | "use client"
-  2 |
-> 3 | import { useWalletContext } from "@/components/providers/web3-provider"
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | export function useWallet() {
-  6 |   const { address, isConnected, isConnecting, chainId, isCorrectNetwork, connect, disconnect, switchNetwork } =
-
-The export useWalletContext was not found in module [project]/components/providers/web3-provider.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./hooks/use-wallet.ts [Client Component Browser]
-    ./app/signup/page.tsx [Client Component Browser]
-    ./app/signup/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./hooks/use-wallet.ts [Client Component SSR]
-    ./app/signup/page.tsx [Client Component SSR]
-    ./app/signup/page.tsx [Server Component]
-[01:42:13.688] Server  LOG      ✓ Compiled in 388ms
-[01:42:18.951] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:42:18.951] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
-[01:42:18.951] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765586331738}
+    ./app/home/page.tsx [Client Component Browser]
+    ./app/home/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/home/page.tsx [Client Component SSR]
+    ./app/home/page.tsx [Server Component]
+[00:31:54.935] Server  LOG      ✓ Compiled in 251ms
+[00:31:55.410] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611946848}
+[00:31:58.981] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611991287}
+[00:32:42.121] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
+[00:38:35.940] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:38.820] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
+[00:38:39.574] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
+[00:38:40.140] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
+[00:38:40.588] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
+[00:38:40.591] Server  LOG      ✓ Compiled in 1533ms
+[00:38:40.610] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:38:40.745] Server  LOG      ✓ Compiled in 0ms
+[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
+[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612352975}
+[00:39:19.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612390492}
+[00:39:25.670] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612396344}
+[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612435263}
+[00:40:06.897] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612437576}
+[00:40:10.816] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:10.817] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:40:10.817] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612441501}
+[00:40:12.490] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612443136}
+[00:53:37.111] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613247793}
+[00:53:55.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613266547}
+[00:54:02.650] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613273320}
+[00:54:06.196] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/communities color: rgb(120, 120, 120) color: inherit {"dp":"/communities","o":"http://localhost:3000/communities","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613276869}
+[00:54:09.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613280643}
+[00:54:42.921] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613313602}
+[00:55:12.082] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613342764}
+[00:56:47.348] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613438030}
+[00:57:04.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613455255}
+[00:57:44.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613495155}
+[00:57:46.402] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/communities color: rgb(120, 120, 120) color: inherit {"dp":"/communities","o":"http://localhost:3000/communities","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613497079}
+[00:57:48.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613499616}
+[00:57:50.689] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613501370}
+[00:57:53.833] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613504489}
+[00:57:57.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613507905}
+[00:58:52.033] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613562711}
