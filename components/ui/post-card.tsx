@@ -120,7 +120,6 @@ import { CommentList } from "./comment-list"
 import { CommentBox } from "./comment-box"
 import { useComments } from "@/lib/comments-store" // Changed from useCommentsStore
 import type { Post } from "@/lib/store"
-
 interface PostCardProps {
   post: Post
 }
