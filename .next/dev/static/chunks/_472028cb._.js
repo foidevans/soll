@@ -524,6 +524,67 @@ __turbopack_context__.v([{"inputs":[{"internalType":"string","name":"_username",
 "[project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client"
+// import { useState, useCallback } from "react"
+// import { useToast } from "@/hooks/use-toast"
+// export type TransactionStatus = "idle" | "confirming" | "pending" | "success" | "error"
+// export interface TransactionState {
+//   status: TransactionStatus
+//   hash?: string
+//   error?: string
+// }
+// export function useTransaction() {
+//   const { toast } = useToast()
+//   const [state, setState] = useState<TransactionState>({ status: "idle" })
+//   const execute = useCallback(
+//     async (txFn, options) => {
+//       try {
+//         setState({ status: "confirming" })
+//         toast({
+//           title: "Waiting for wallet confirmation...",
+//           description: "Please confirm the transaction in your wallet",
+//         })
+//         const tx = await txFn()
+//         setState({ status: "pending", hash: tx.hash })
+//         toast({
+//           title: "Transaction submitted",
+//           description: `Hash: ${tx.hash.slice(0, 10)}...${tx.hash.slice(-8)}`,
+//         })
+//         const result = await tx.wait()
+//         setState({ status: "success", hash: tx.hash })
+//         toast({
+//           title: options?.successMessage || "Transaction confirmed",
+//           description: "Your transaction was successful",
+//         })
+//         options?.onSuccess?.(result)
+//         return result
+//       } catch (error) {
+//         const message = error?.reason || error?.message || "Transaction failed"
+//         setState({ status: "error", error: message })
+//         toast({
+//           title: "Transaction failed",
+//           description: message,
+//           variant: "destructive",
+//         })
+//         return null
+//       }
+//     },
+//     [toast],
+//   )
+//   const reset = useCallback(() => {
+//     setState({ status: "idle" })
+//   }, [])
+//   return {
+//     ...state,
+//     isLoading: state.status === "confirming" || state.status === "pending",
+//     isConfirming: state.status === "confirming",
+//     isPending: state.status === "pending",
+//     isSuccess: state.status === "success",
+//     isError: state.status === "error",
+//     execute,
+//     reset,
+//   }
+// }
 __turbopack_context__.s([
     "useTransaction",
     ()=>useTransaction
@@ -543,6 +604,7 @@ function useTransaction() {
     const execute = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
         "useTransaction.useCallback[execute]": async (txFn, options)=>{
             try {
+                console.log("Starting transaction execution...");
                 setState({
                     status: "confirming"
                 });
@@ -550,7 +612,9 @@ function useTransaction() {
                     title: "Waiting for wallet confirmation...",
                     description: "Please confirm the transaction in your wallet"
                 });
+                console.log("Calling transaction function...");
                 const tx = await txFn();
+                console.log("Transaction sent:", tx);
                 setState({
                     status: "pending",
                     hash: tx.hash
@@ -559,7 +623,9 @@ function useTransaction() {
                     title: "Transaction submitted",
                     description: `Hash: ${tx.hash.slice(0, 10)}...${tx.hash.slice(-8)}`
                 });
+                console.log("Waiting for confirmation...");
                 const result = await tx.wait();
+                console.log("Transaction confirmed:", result);
                 setState({
                     status: "success",
                     hash: tx.hash
@@ -571,16 +637,18 @@ function useTransaction() {
                 options?.onSuccess?.(result);
                 return result;
             } catch (error) {
+                console.error("Transaction error:", error);
                 const message = error?.reason || error?.message || "Transaction failed";
                 setState({
                     status: "error",
                     error: message
                 });
                 toast({
-                    title: "Transaction failed",
+                    title: options?.errorMessage || "Transaction failed",
                     description: message,
                     variant: "destructive"
                 });
+                options?.onError?.(error);
                 return null;
             }
         }

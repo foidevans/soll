@@ -1,652 +1,982 @@
-[00:00:04.407] Server  LOG      ✓ Ready in 3.1s
-[00:00:46.089] Server  LOG      ○ Compiling /signup ...
-[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
-[00:00:58.486] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610089170}
-[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:03.048] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610093732}
-[00:01:14.452] Server  ERROR    ⨯ ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-
-
-
-./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-
-
-[00:01:14.804] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:14.804] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:16.436] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:16.436] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:16.975] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:16.975] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:17.489] Server  LOG      ○ Compiling /_error ...
-[00:01:18.142] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:18.142] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:18.261] Server  ERROR    ⨯ ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-
-
-
-./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-
-
-[00:01:18.864] Browser ERROR   uncaughtError: Error: ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-
-
-[00:01:19.000] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:19.000] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:19.262] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:01:19.262] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:06:18.885] Server  LOG      ✓ Compiled in 391ms
-[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:06:22.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610413153}
-[00:06:24.982] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
-[00:06:43.830] Server  LOG      ✓ Compiled in 148ms
-[00:06:43.982] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-client] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:06:43.984] Browser ERROR   ./components/ui/post-card.tsx:10:1
-Export useCommentsStore doesn't exist in target module
-   8 | import { CommentBox } from "./comment-box"
-   9 | import { CommentList } from "./comment-list"
-> 10 | import { useCommentsStore } from "@/lib/comments-store"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  11 | import type { Post } from "@/lib/store"
-  12 |
-  13 | interface PostCardProps {
-
-The export useCommentsStore was not found in module [project]/lib/comments-store.tsx [app-ssr] (ecmascript).
-Did you mean to import useComments?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:07:36.532] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:07:37.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610487953}
-[00:07:39.439] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:39.441] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
-[00:07:39.745] Server  LOG      ✓ Compiled in 120ms
-[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:07:40.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610491482}
-[00:07:43.982] Browser ERROR   uncaughtError: ReferenceError: useCommentsStore is not defined
-[00:07:45.958] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:45.978] Server  LOG      ✓ Compiled in 177ms
-[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:07:47.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610497997}
-[00:07:49.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:14:26.274] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:14:26.285] Server  LOG      ✓ Compiled in 116ms
-[00:14:27.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:27.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:14:27.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610898401}
-[00:14:30.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:15:06.605] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:15:06.616] Server  LOG      ✓ Compiled in 244ms
-[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:15:07.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765610938479}
-[00:15:09.812] Server  LOG      ✓ Compiled in 140ms
-[00:15:10.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:17:07.162] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:07.181] Server  LOG      ✓ Compiled in 77ms
-[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:17:08.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611059466}
-[00:17:09.718] Server  LOG      ✓ Compiled in 73ms
-[00:17:11.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:30:47.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:30:47.153] Server  LOG      ✓ Compiled in 189ms
-[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:30:50.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611880715}
-[00:30:52.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:30:55.811] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:30:55.830] Server  LOG      ✓ Compiled in 195ms
-[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:30:57.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611887670}
-[00:30:59.982] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:31:52.480] Server  LOG      ✓ Compiled in 262ms
-[00:31:52.983] Browser ERROR   ./app/home/page.tsx:7:1
-Export PostCard doesn't exist in target module
-   5 | import { Plus } from "lucide-react"
-   6 | import { AppLayout } from "@/components/layout/app-layout"
->  7 | import { PostCard } from "@/components/ui/post-card"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import { PostCardSkeleton } from "@/components/ui/post-card-skeleton"
-   9 | import { Button } from "@/components/ui/button"
-  10 | import { useAppStore } from "@/lib/store"
-
-The export PostCard was not found in module [project]/components/ui/post-card.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:31:52.983] Browser ERROR   ./app/home/page.tsx:7:1
-Export PostCard doesn't exist in target module
-   5 | import { Plus } from "lucide-react"
-   6 | import { AppLayout } from "@/components/layout/app-layout"
->  7 | import { PostCard } from "@/components/ui/post-card"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import { PostCardSkeleton } from "@/components/ui/post-card-skeleton"
-   9 | import { Button } from "@/components/ui/button"
-  10 | import { useAppStore } from "@/lib/store"
-
-The export PostCard was not found in module [project]/components/ui/post-card.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[00:31:54.935] Server  LOG      ✓ Compiled in 251ms
-[00:31:55.410] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:31:56.982] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611946848}
-[00:31:58.981] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:32:40.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765611991287}
-[00:32:42.121] Browser ERROR   uncaughtError: Error: useComments must be used within CommentsProvider
-[00:38:35.940] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:38:38.820] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
-[00:38:39.574] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
-[00:38:40.140] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
-[00:38:40.588] Server  ERROR    ⨯ Error: The default export is not a React Component in "/home/layout"
-[00:38:40.591] Server  LOG      ✓ Compiled in 1533ms
-[00:38:40.610] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:38:40.745] Server  LOG      ✓ Compiled in 0ms
-[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/home","route":"/home"}
-[00:38:42.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612352975}
-[00:39:19.810] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612390492}
-[00:39:25.670] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612396344}
-[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
-[00:40:04.578] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612435263}
-[00:40:06.897] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612437576}
-[00:40:10.816] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:40:10.817] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:40:10.817] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612441501}
-[00:40:12.490] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765612443136}
-[00:53:37.111] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613247793}
-[00:53:55.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613266547}
-[00:54:02.650] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613273320}
-[00:54:06.196] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/communities color: rgb(120, 120, 120) color: inherit {"dp":"/communities","o":"http://localhost:3000/communities","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613276869}
-[00:54:09.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613280643}
-[00:54:42.921] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613313602}
-[00:55:12.082] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613342764}
-[00:56:47.348] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613438030}
-[00:57:04.599] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613455255}
-[00:57:44.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613495155}
-[00:57:46.402] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/communities color: rgb(120, 120, 120) color: inherit {"dp":"/communities","o":"http://localhost:3000/communities","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613497079}
-[00:57:48.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613499616}
-[00:57:50.689] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613501370}
-[00:57:53.833] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613504489}
-[00:57:57.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613507905}
-[00:58:52.033] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613562711}
-[01:25:11.565] Server  LOG      ✓ Compiled in 172ms
-[01:25:11.982] Browser ERROR   ./components/ui/post-card.tsx:123:25
+[00:00:04.112] Server  LOG      ✓ Ready in 3.1s
+[00:00:50.180] Server  LOG      ○ Compiling / ...
+[00:00:56.325] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:56.325] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:56.325] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765854214478}
+[00:01:08.718] Server  LOG      ○ Compiling /signup ...
+[00:01:11.022] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765854229147}
+[00:09:49.194] Server  LOG      ✓ Compiled in 1067ms
+[00:09:51.960] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:09:54.079] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:09:54.089] Server  LOG      ✓ Compiled in 61ms
+[00:09:56.835] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:09:58.026] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:09:58.029] Server  LOG      ○ Compiling /_error ...
+[00:10:30.947] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/signup/page"
+[00:10:32.765] Server  LOG      ○ Compiling /signup ...
+[00:10:50.361] Server  ERROR    ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.19.5
+[00:10:52.076] Browser ERROR   uncaughtError: WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.19.5
+[00:11:18.179] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:18.911] Server  LOG      ✓ Compiled in 6ms
+[00:11:19.196] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:19.196] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:11:19.196] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765854837348}
+[00:15:39.046] Server  LOG      ✓ Compiled in 556ms
+[00:15:41.848] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:43.999] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:44.006] Server  LOG      ✓ Compiled in 48ms
+[00:15:45.896] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:46.739] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:47.706] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:48.454] Server  ERROR    ⨯ Error: The default export is not a React Component in "/signup/page"
+[00:15:49.072] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/signup/page"
+[00:16:15.518] Server  LOG      ✓ Compiled in 800ms
+[00:16:18.077] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:18.078] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:16:18.078] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765855136230}
+[00:16:50.303] Server  LOG      ✓ Compiled in 361ms
+[00:16:54.531] Server  LOG      ✓ Compiled in 621ms
+[00:17:59.247] Server  LOG      ✓ Compiled in 453ms
+[00:17:59.596] Browser ERROR   ./app/signup/page.tsx:407:15
 Parsing ecmascript source code failed
-  121 | import { useComments } from "@/lib/comments-store" // Changed from useCommentsStore
-  122 | import type { Post } from "@/lib/store"
-> 123 | import { useAuth } from "@/lib/auth-
-      |                         ^^^^^^^^^^^^
-  124 | interface PostCardProps {
-  125 |   post: Post
-  126 | }
+  405 |                 //   )}
+  406 |                 // </Button>
+> 407 |               </div>
+      |               ^
+  408 |             </div>
+  409 |           )}
+  410 |         </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:17:59.596] Browser ERROR   ./app/signup/page.tsx:407:16
+Parsing ecmascript source code failed
+  405 |                 //   )}
+  406 |                 // </Button>
+> 407 |               </div>
+      |                ^^^^^
+  408 |             </div>
+  409 |           )}
+  410 |         </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:05.938] Browser ERROR   ./app/signup/page.tsx:407:17
+Parsing ecmascript source code failed
+  405 |                 //   )}
+  406 |                 // </Button>
+> 407 |                 <Button onClick={async () => {
+      |                 ^
+  408 |   const signer = await getSigner()
+  409 |   console.log("Signer:", signer)
+  410 |   console.log("Address:", await signer?.getAddress())
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:14.459] Server  LOG      ✓ Compiled in 306ms
+[00:18:14.566] Browser ERROR   ./app/signup/page.tsx:394:20
+Parsing ecmascript source code failed
+  392 |                 //   onClick={handleCreateAccount}
+  393 |                 //   disabled={isCreating || isRegistering || !isConnected}
+> 394 |                 // >
+      |                    ^
+  395 |                 //   {isCreating || isRegistering ? (
+  396 |                 //     <>
+  397 |                 //       <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:14.566] Browser ERROR   ./app/signup/page.tsx:412:16
+Parsing ecmascript source code failed
+  410 |   console.log("Address:", await signer?.getAddress())
+  411 | }}>Test Signer</Button>
+> 412 |               </div>
+      |                ^^^^^
+  413 |             </div>
+  414 |           )}
+  415 |         </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:16.600] Server  LOG      ✓ Compiled in 429ms
+[00:18:16.706] Browser ERROR   ./app/signup/page.tsx:407:17
+Parsing ecmascript source code failed
+  405 |                 //   )}
+  406 |                 // </Button>
+> 407 |                 <Button onClick={async () => {
+      |                 ^
+  408 |   const signer = await getSigner()
+  409 |   console.log("Signer:", signer)
+  410 |   console.log("Address:", await signer?.getAddress())
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:22.938] Browser ERROR   ./app/signup/page.tsx:407:17
+Parsing ecmascript source code failed
+  405 |                 //   )}
+  406 |                 // </Button>
+> 407 |                 <Button onClick={async () => {
+      |                 ^
+  408 |   const signer = await getSigner()
+  409 |   console.log("Signer:", signer)
+  410 |   console.log("Address:", await signer?.getAddress())
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:26.490] Browser ERROR   ./app/signup/page.tsx:408:15
+Parsing ecmascript source code failed
+  406 |                 // </Button>
+  407 |                 
+> 408 |               </div>
+      |               ^
+  409 |             </div>
+  410 |           )}
+  411 |         </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:26.490] Browser ERROR   ./app/signup/page.tsx:408:16
+Parsing ecmascript source code failed
+  406 |                 // </Button>
+  407 |                 
+> 408 |               </div>
+      |                ^^^^^
+  409 |             </div>
+  410 |           )}
+  411 |         </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:18:29.214] Server  LOG      ✓ Compiled in 375ms
+[00:18:39.314] Server  LOG      ✓ Compiled in 430ms
+[00:18:58.924] Server  LOG      ✓ Compiled in 891ms
+[00:19:00.893] Server  LOG      ✓ Compiled in 368ms
+[00:19:05.440] Server  LOG      ✓ Compiled in 283ms
+[00:19:06.965] Server  LOG      ✓ Compiled in 239ms
+[00:20:44.083] Server  LOG      ✓ Compiled in 864ms
+[00:20:48.263] Server  LOG      ✓ Compiled in 510ms
+[00:21:40.240] Server  LOG      ✓ Compiled in 458ms
+[00:21:40.405] Browser ERROR   ./hooks/blockchain/use-content-vault.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import ContentVaultABI from "@/lib/abis/ContentVault.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export interface ContentData {
+  10 |   id: bigint
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-content-vault.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-content-vault.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-content-vault.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import ContentVaultABI from "@/lib/abis/ContentVault.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export interface ContentData {
+  10 |   id: bigint
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-content-vault.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-content-vault.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-demo-scroll-token.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import DemoScrollTokenABI from "@/lib/abis/DemoScrollToken.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export function useDemoScrollToken() {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-demo-scroll-token.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import DemoScrollTokenABI from "@/lib/abis/DemoScrollToken.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export function useDemoScrollToken() {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-impact-oracle.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import MockImpactOracleABI from "@/lib/abis/MockImpactOracle.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useImpactOracle() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-impact-oracle.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import MockImpactOracleABI from "@/lib/abis/MockImpactOracle.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useImpactOracle() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-network-graph.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import NetworkGraphABI from "@/lib/abis/NetworkGraph.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useNetworkGraph() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-network-graph.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-network-graph.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-network-graph.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import NetworkGraphABI from "@/lib/abis/NetworkGraph.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useNetworkGraph() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-network-graph.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-network-graph.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-user-registry.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import UserRegistryABI from "@/lib/abis/UserRegistry.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export interface UserData {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-user-registry.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-user-registry.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:40.406] Browser ERROR   ./hooks/blockchain/use-user-registry.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import UserRegistryABI from "@/lib/abis/UserRegistry.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export interface UserData {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-user-registry.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-user-registry.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-content-vault.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import ContentVaultABI from "@/lib/abis/ContentVault.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export interface ContentData {
+  10 |   id: bigint
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-content-vault.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-content-vault.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-content-vault.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import ContentVaultABI from "@/lib/abis/ContentVault.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export interface ContentData {
+  10 |   id: bigint
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-content-vault.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-content-vault.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-demo-scroll-token.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import DemoScrollTokenABI from "@/lib/abis/DemoScrollToken.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export function useDemoScrollToken() {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-demo-scroll-token.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import DemoScrollTokenABI from "@/lib/abis/DemoScrollToken.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export function useDemoScrollToken() {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-demo-scroll-token.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-impact-oracle.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import MockImpactOracleABI from "@/lib/abis/MockImpactOracle.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useImpactOracle() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-impact-oracle.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import MockImpactOracleABI from "@/lib/abis/MockImpactOracle.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useImpactOracle() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-impact-oracle.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-network-graph.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import NetworkGraphABI from "@/lib/abis/NetworkGraph.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useNetworkGraph() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-network-graph.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-network-graph.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.461] Browser ERROR   ./hooks/blockchain/use-network-graph.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import NetworkGraphABI from "@/lib/abis/NetworkGraph.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export function useNetworkGraph() {
+  10 |   const transaction = useTransaction()
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-network-graph.ts [Client Component Browser]
+    ./hooks/blockchain/index.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-network-graph.ts [Client Component SSR]
+    ./hooks/blockchain/index.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.462] Browser ERROR   ./hooks/blockchain/use-user-registry.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import UserRegistryABI from "@/lib/abis/UserRegistry.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export interface UserData {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-user-registry.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-user-registry.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:42.462] Browser ERROR   ./hooks/blockchain/use-user-registry.ts:7:1
+Export useTransaction doesn't exist in target module
+   5 | import { getContract, getSigner, getProvider } from "@/lib/contracts/contract-factory"
+   6 | import UserRegistryABI from "@/lib/abis/UserRegistry.json"
+>  7 | import { useTransaction } from "./use-transaction"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { ethers } from "ethers"
+   9 |
+  10 | export interface UserData {
+
+The export useTransaction was not found in module [project]/hooks/blockchain/use-transaction.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./hooks/blockchain/use-user-registry.ts [Client Component Browser]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./hooks/blockchain/use-user-registry.ts [Client Component SSR]
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:21:44.101] Server  LOG      ✓ Compiled in 553ms
+[00:22:11.538] Server  LOG      ✓ Compiled in 292ms
+[00:23:59.568] Server  LOG      ✓ Compiled in 359ms
+[00:24:15.123] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:15.123] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:24:15.123] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765855613276}
+[00:24:39.277] Browser LOG     === Connection Test ===
+[00:24:39.277] Browser LOG     Is Connected: true
+[00:24:39.277] Browser LOG     Address: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:24:39.277] Browser LOG     Is Correct Network: true
+[00:24:39.277] Browser LOG     Provider: {}
+[00:24:39.277] Browser LOG     Signer: {"address":"0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF","provider":{}}
+[00:24:39.278] Browser LOG     Signer Address: 0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF
+[00:24:41.770] Browser LOG     === Connection Test ===
+[00:24:41.770] Browser LOG     Is Connected: true
+[00:24:41.770] Browser LOG     Address: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:24:41.770] Browser LOG     Is Correct Network: true
+[00:24:41.770] Browser LOG     Provider: {}
+[00:24:41.770] Browser LOG     Signer: {"address":"0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF","provider":{}}
+[00:24:41.770] Browser LOG     Signer Address: 0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF
+[00:24:44.200] Browser LOG     Starting registration for: gracee
+[00:24:44.200] Browser LOG     Calling registerUser...
+[00:24:44.200] Browser LOG     Starting transaction execution...
+[00:24:44.200] Browser LOG     Calling transaction function...
+[00:24:45.117] Browser ERROR   Transaction error: {"action":"estimateGas","code":"CALL_EXCEPTION","data":"0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000012416c726561647920726567697374657265640000000000000000000000000000","info":{"error":{"code":-32603,"data":{"originalError":{"code":3,"data":"0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000012416c726561647920726567697374657265640000000000000000000000000000","message":"RPC Request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af\",\"to\":\"0xfc9c2d839f3831c3431b5d454f3696ef85fd4fc5\",\"data\":\"0x704f1b94000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000066772616365650000000000000000000000000000000000000000000000000000\"}]}\n\nDetails: execution reverted: Already registered\nVersion: viem@2.23.15","stack":"RpcRequestError: RPC Request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af\",\"to\":\"0xfc9c2d839f3831c3431b5d454f3696ef85fd4fc5\",\"data\":\"0x704f1b94000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000066772616365650000000000000000000000000000000000000000000000000000\"}]}\n\nDetails: execution reverted: Already registered\nVersion: viem@2.23.15\n    at request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012524)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"RPC Request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_estimateGas\",\"params\":[{\"from\":\"0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af\",\"to\":\"0xfc9c2d839f3831c3431b5d454f3696ef85fd4fc5\",\"data\":\"0x704f1b94000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000066772616365650000000000000000000000000000000000000000000000000000\"}]}\n\nDetails: execution reverted: Already registered\nVersion: viem@2.23.15"},"payload":{"id":5,"jsonrpc":"2.0","method":"eth_estimateGas","params":[{"data":"0x704f1b94000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000066772616365650000000000000000000000000000000000000000000000000000","from":"0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0xfc9c2d839f3831c3431b5d454f3696ef85fd4fc5"}]}},"invocation":null,"reason":"Already registered","revert":{"args":["Already registered"],"name":"Error","signature":"Error(string)"},"shortMessage":"execution reverted: \"Already registered\"","transaction":{"data":"0x704f1b94000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000066772616365650000000000000000000000000000000000000000000000000000","from":"0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF","to":"0xFC9C2D839F3831c3431B5D454f3696EF85fd4Fc5"}}
+[00:24:45.117] Browser LOG     Registration result: null
+[00:24:45.117] Browser ERROR   Registration returned null/false
+[00:25:31.390] Browser LOG     === Connection Test ===
+[00:25:31.390] Browser LOG     Is Connected: true
+[00:25:31.390] Browser LOG     Address: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:25:31.390] Browser LOG     Is Correct Network: true
+[00:25:31.390] Browser LOG     Provider: {}
+[00:25:31.390] Browser LOG     Signer: {"address":"0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF","provider":{}}
+[00:25:31.390] Browser LOG     Signer Address: 0xbc9E7C43EA7fc3A91EE70167617B14d60Bd084aF
+[00:28:50.803] Server  LOG      ✓ Compiled in 451ms
+[00:28:51.144] Browser ERROR   uncaughtError: ReferenceError: handleCreateAccount is not defined
+[00:28:52.250] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:28:52.258] Server  LOG      ✓ Compiled in 430ms
+[00:28:54.094] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765855890582}
+[00:28:56.300] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:56.300] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:28:56.300] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765855894452}
+[00:29:48.745] Browser LOG     Starting registration for: grace
+[00:29:48.745] Browser LOG     Checking if user is already registered...
+[00:29:48.745] Browser ERROR   Registration error: {}
+[00:31:45.303] Server  LOG      ✓ Compiled in 280ms
+[00:31:46.943] Server  LOG      ✓ Compiled in 546ms
+[00:31:49.596] Server  LOG      ✓ Compiled in 531ms
+[00:31:52.341] Server  LOG      ✓ Compiled in 198ms
+[00:31:55.824] Server  LOG      ✓ Compiled in 246ms
+[00:32:01.368] Server  LOG      ✓ Compiled in 301ms
+[00:32:35.789] Browser LOG     Starting registration for: grace
+[00:32:35.789] Browser LOG     Checking if user is already registered...
+[00:32:36.510] Browser LOG     User already registered: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:32:38.865] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856117010}
+[00:32:50.425] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/create color: rgb(120, 120, 120) color: inherit {"dp":"/create","o":"http://localhost:3000/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856128573}
+[00:32:55.399] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/communities color: rgb(120, 120, 120) color: inherit {"dp":"/communities","o":"http://localhost:3000/communities","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856133539}
+[00:32:59.070] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856137215}
+[00:33:03.086] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856141166}
+[00:33:06.673] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/network color: rgb(120, 120, 120) color: inherit {"dp":"/network","o":"http://localhost:3000/network","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856144822}
+[00:36:52.055] Server  LOG      ✓ Compiled in 210ms
+[00:41:16.798] Server  LOG      ✓ Compiled in 268ms
+[00:41:19.707] Server  LOG      ✓ Compiled in 304ms
+[00:42:02.016] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856680134}
+[00:42:03.924] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856682065}
+[00:42:35.011] Browser LOG     Starting registration for: grace
+[00:42:35.011] Browser LOG     Checking if user is already registered...
+[00:42:35.627] Browser LOG     User already registered: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:42:35.627] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765856713770}
+[00:43:53.251] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866476564}
+[00:43:53.251] Browser ERROR   Error fetching creator content: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0f7f3106594cba402ae03f6beb781663bb474ab1"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0F7f3106594cBA402aE03f6BEb781663bB474AB1"}}
+[00:43:53.251] Browser ERROR   Error fetching balance: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6C176d28Ce1c6bE488ba989dE6Bae67B6A3B3157"}}
+[00:43:53.251] Browser ERROR   Error fetching creator content: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0f7f3106594cba402ae03f6beb781663bb474ab1"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0F7f3106594cBA402aE03f6BEb781663bB474AB1"}}
+[00:43:53.251] Browser ERROR   Error fetching balance: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6C176d28Ce1c6bE488ba989dE6Bae67B6A3B3157"}}
+[00:45:20.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:20.488] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/profile","route":"/profile"}
+[00:45:20.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866563905}
+[00:45:20.488] Browser ERROR   Error fetching creator content: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x0f7f3106594cba402ae03f6beb781663bb474ab1\",\"data\":\"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0f7f3106594cba402ae03f6beb781663bb474ab1"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x564ebfc8000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x0F7f3106594cBA402aE03f6BEb781663bB474AB1"}}
+[00:45:20.488] Browser ERROR   Error fetching balance: {"action":"call","code":"CALL_EXCEPTION","data":null,"info":{"error":{"code":-32603,"data":{"originalError":{"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15","stack":"HttpRequestError: HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15\n    at Object.request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18011738)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012452\n    at async request (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18012429)\n    at async chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18008421\n    at async o (chrome-extension://acmacodkjbdgmoleebolmdjonilkdbch/background.js:2:18101386)"}},"message":"HTTP request failed.\n\nURL: https://sepolia-rpc.scroll.io/\nRequest body: {\"method\":\"eth_call\",\"params\":[{\"to\":\"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157\",\"data\":\"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af\"},\"latest\"]}\n\nDetails: Failed to fetch\nVersion: viem@2.23.15"},"payload":{"id":2,"jsonrpc":"2.0","method":"eth_call","params":[{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6c176d28ce1c6be488ba989de6bae67b6a3b3157"},"latest"]}},"invocation":null,"reason":null,"revert":null,"shortMessage":"missing revert data","transaction":{"data":"0x70a08231000000000000000000000000bc9e7c43ea7fc3a91ee70167617b14d60bd084af","to":"0x6C176d28Ce1c6bE488ba989dE6Bae67B6A3B3157"}}
+[00:45:30.353] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:30.353] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:30.353] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866573826}
+[00:45:39.201] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:39.201] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signin","route":"/signin"}
+[00:45:39.201] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"http://localhost:3000/signin","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866582674}
+[00:45:52.215] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:52.215] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:52.215] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866595688}
+[00:45:54.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866598261}
+[00:45:58.925] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866602395}
+[00:49:20.524] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866803989}
+[00:49:27.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:49:27.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:49:27.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866810590}
+[00:49:30.657] Browser LOG     Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:49:30.657] Browser LOG     [2;38;2;124;124;124m%s[0m Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:49:30.657] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"http://localhost:3000/signin","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866814106}
+[00:49:31.490] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:49:31.490] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:49:31.736] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866815195}
+[00:49:49.666] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:49:49.666] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:49:49.666] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866830713}
+[00:49:53.057] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866836482}
+[00:50:28.127] Browser LOG     Starting registration for: divine
+[00:50:28.127] Browser LOG     Checking if user is already registered...
+[00:50:28.698] Browser LOG     User already registered: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:50:28.894] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866872361}
+[00:50:37.184] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866880606}
+[00:51:00.143] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866903614}
+[00:51:06.891] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:51:06.891] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:51:06.891] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866909928}
+[00:51:09.347] Browser LOG     Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:51:09.347] Browser LOG     [2;38;2;124;124;124m%s[0m Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:51:09.347] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"http://localhost:3000/signin","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866912798}
+[00:51:09.809] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:51:09.809] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:51:10.025] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866913494}
+[00:51:16.232] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866919654}
+[00:51:20.514] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765866923970}
+[00:53:34.866] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:53:34.866] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:53:34.866] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867058340}
+[00:53:39.329] Browser LOG     Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:53:39.330] Browser LOG     [2;38;2;124;124;124m%s[0m Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:53:39.330] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"http://localhost:3000/signin","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867062794}
+[00:53:39.876] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:53:39.876] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:53:40.074] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867063543}
+[00:55:50.456] Browser ERROR   ./app/signup/page.tsx:495:46
+Parsing ecmascript source code failed
+  493 |           Already have an account?
+  494 |             <Link href="/signin">
+> 495 |             <Button variant="ghost" className=>
+      |                                              ^^
+  496 |               Sign In
+  497 |             </Button>
+  498 |           </Link> <button className="text-primary hover:underline font-medium">Sign in</button>
+
+Expected '</', got '=>'
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:55:51.387] Browser ERROR   ./app/signup/page.tsx:498:78
+Parsing ecmascript source code failed
+  496 |               Sign In
+  497 |             </Button>
+> 498 |           </Link> <button className="text-primary hover:underline font-medium">Sign in</button>
+      |                                                                              ^^^^^^^^^^^^^^^^^^
+  499 |         </p>
+  500 |       </div>
+  501 |     </div>
 
 Unterminated string constant
 
 Import traces:
   Client Component Browser:
-    ./components/ui/post-card.tsx [Client Component Browser]
-    ./app/home/page.tsx [Client Component Browser]
-    ./app/home/page.tsx [Server Component]
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
 
   Client Component SSR:
-    ./components/ui/post-card.tsx [Client Component SSR]
-    ./app/home/page.tsx [Client Component SSR]
-    ./app/home/page.tsx [Server Component]
-[01:31:42.118] Server  LOG      ✓ Compiled in 109ms
-[02:09:02.705] Server  LOG      ✓ Compiled in 603ms
-[02:09:12.786] Server  LOG      ✓ Compiled in 377ms
-[02:09:27.041] Server  LOG      ✓ Compiled in 432ms
-[02:09:28.992] Server  LOG      ✓ Compiled in 322ms
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:56:04.151] Browser ERROR   ./app/signup/page.tsx:498:78
+Parsing ecmascript source code failed
+  496 |               Sign In
+  497 |             </Button>
+> 498 |           </Link> <button className="text-primary hover:underline font-medium">Sign in<
+      |                                                                              ^^^^^^^^^^
+  499 |         </p>
+  500 |       </div>
+  501 |     </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:56:18.634] Browser ERROR   ./app/signup/page.tsx:495:47
+Parsing ecmascript source code failed
+  493 |           Already have an account?
+  494 |             <Link href="/signin">
+> 495 |             <Button variant="ghost" className="text-primary hover:underline font-medium>
+      |                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 496 |               Sign In
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 497 |             </Button>
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 498 |           </Link> 
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 499 |         </p>
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 500 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 501 |     </div>
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 502 |   )
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 503 | }
+      | ^^^^^^^^^^^^^^^^^^^^^
+> 504 |
+      | ^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./app/signup/page.tsx [Client Component Browser]
+    ./app/signup/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/signup/page.tsx [Client Component SSR]
+    ./app/signup/page.tsx [Server Component]
+[00:56:59.581] Server  LOG      ✓ Compiled in 309ms
+[00:57:16.298] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867279718}
+[00:57:18.398] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867281786}
+[00:57:29.503] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"http://localhost:3000/signin","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867292974}
+[00:57:31.961] Browser LOG     Checking registration for: 0xbc9e7c43ea7fc3a91ee70167617b14d60bd084af
+[00:57:32.308] Browser LOG     User found: {"bio":"","exists":true,"profilePicHash":"","username":"grace"}
+[00:57:32.308] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867295778}
+[00:57:34.873] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867298314}
+[00:57:36.981] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867300437}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { CheckCircle2, ArrowRight, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -11,6 +12,7 @@ import { ConnectWalletButton } from "@/components/ui/connect-wallet-button"
 import { useWallet } from "@/hooks/use-wallet"
 import { useAppStore } from "@/lib/store"
 import { FloatingShapes } from "@/components/landing/floating-shapes"
+
 import { useUserRegistry } from "@/hooks/blockchain"
 
 const interests = ["DeFi", "NFTs", "DAOs", "Gaming", "Trading", "Development", "Art", "Music"]
@@ -19,7 +21,7 @@ export default function SignupPage() {
   const router = useRouter()
   const { address, isConnected, shortenedAddress, isConnecting, connect, isCorrectNetwork } = useWallet()
   const { setCurrentUser } = useAppStore()
-  const { registerUser, isLoading: isRegistering, isConfirming, isPending } = useUserRegistry()
+  const { registerUser, isLoading: isRegistering, getUser, isConfirming, isPending } = useUserRegistry()
   const [step, setStep] = useState(1)
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
@@ -66,35 +68,129 @@ export default function SignupPage() {
       setStep(2)
     }
   }
+const handleCreateAccount = async () => {
+    if (!username || !address || !password) {
+      console.error("Missing required fields:", { username, address, password })
+      return
+    }
 
-  const handleCreateAccount = async () => {
-    if (!username || !address || !password) return
+    if (!isCorrectNetwork) {
+      console.error("Wrong network")
+      return
+    }
 
     setIsCreating(true)
 
     try {
+      console.log("Starting registration for:", username)
+      
+      // Check if user is already registered
+      console.log("Checking if user is already registered...")
+      const existingUser = await getUser(address)
+      
+      if (existingUser && existingUser.exists) {
+        console.log("User already registered:", existingUser)
+        
+        // User exists, just log them in
+        const hashedPassword = btoa(password)
+        localStorage.setItem("soll_user_password", hashedPassword)
+        localStorage.setItem("soll_user_username", existingUser.username)
+        
+        setCurrentUser({
+          id: crypto.randomUUID(),
+          username: existingUser.username,
+          walletAddress: address,
+          bio: existingUser.bio || "New to the decentralized world",
+          avatar: existingUser.profilePicHash || "/diverse-profile-avatars.png",
+        })
+        
+        router.push("/home")
+        return
+      }
+      
+      // User doesn't exist, proceed with registration
       const hashedPassword = btoa(password)
       localStorage.setItem("soll_user_password", hashedPassword)
       localStorage.setItem("soll_user_username", username)
 
+      console.log("Calling registerUser...")
       const result = await registerUser(username)
+      console.log("Registration result:", result)
 
       if (result) {
+        console.log("Registration successful, creating user profile...")
         setCurrentUser({
           id: crypto.randomUUID(),
-          username,
+          username: `${username}.soll`,
           walletAddress: address,
           bio: "New to the decentralized world",
           avatar: "/diverse-profile-avatars.png",
         })
         router.push("/home")
+      } else {
+        console.error("Registration returned null/false")
+        setIsCreating(false)
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Registration error:", error)
-    } finally {
+      
+      // Check if error is "Already registered"
+      if (error?.message?.includes("Already registered")) {
+        console.log("User already registered, fetching existing data...")
+        try {
+          const existingUser = await getUser(address)
+          if (existingUser && existingUser.exists) {
+            const hashedPassword = btoa(password)
+            localStorage.setItem("soll_user_password", hashedPassword)
+            localStorage.setItem("soll_user_username", existingUser.username)
+            
+            setCurrentUser({
+              id: crypto.randomUUID(),
+              username: existingUser.username,
+              walletAddress: address,
+              bio: existingUser.bio || "New to the decentralized world",
+              avatar: existingUser.profilePicHash || "/diverse-profile-avatars.png",
+            })
+            
+            router.push("/home")
+            return
+          }
+        } catch (fetchError) {
+          console.error("Error fetching existing user:", fetchError)
+        }
+      }
+      
       setIsCreating(false)
     }
   }
+  // const handleCreateAccount = async () => {
+  //   if (!username || !address || !password) return
+
+  //   setIsCreating(true)
+
+  //   try {
+  //     const hashedPassword = btoa(password)
+  //     localStorage.setItem("soll_user_password", hashedPassword)
+  //     localStorage.setItem("soll_user_username", username)
+
+  //     const result = await registerUser(username)
+
+  //     if (result) {
+  //       setCurrentUser({
+  //         id: crypto.randomUUID(),
+  //         username,
+  //         walletAddress: address,
+  //         bio: "New to the decentralized world",
+  //         avatar: "/diverse-profile-avatars.png",
+  //       })
+  //       router.push("/home")
+  //     }
+  //   } catch (error) {
+  //     console.error("Registration error:", error)
+  //   } finally {
+  //     setIsCreating(false)
+  //   }
+  // }
 
   const getButtonText = () => {
     if (isConfirming) return "Waiting for wallet..."
@@ -345,6 +441,33 @@ export default function SignupPage() {
                   Back
                 </Button>
                 <Button
+  variant="outline"
+  onClick={async () => {
+    console.log("=== Connection Test ===")
+    console.log("Is Connected:", isConnected)
+    console.log("Address:", address)
+    console.log("Is Correct Network:", isCorrectNetwork)
+    
+    try {
+      const { getProvider, getSigner } = await import("@/lib/contracts/contract-factory")
+      const provider = getProvider()
+      const signer = await getSigner()
+      console.log("Provider:", provider)
+      console.log("Signer:", signer)
+      
+      if (signer) {
+        const signerAddress = await signer.getAddress()
+        console.log("Signer Address:", signerAddress)
+      }
+    } catch (error) {
+      console.error("Connection test failed:", error)
+    }
+  }}
+  className="w-full mb-2"
+>
+  🔍 Test Connection
+</Button>
+                <Button
                   className="flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={handleCreateAccount}
                   disabled={isCreating || isRegistering || !isConnected}
@@ -367,7 +490,12 @@ export default function SignupPage() {
         </div>
 
         <p className="text-center text-sm text-muted-foreground mt-6">
-          Already have an account? <button className="text-primary hover:underline font-medium">Sign in</button>
+          Already have an account?
+            <Link href="/signin">
+            <Button variant="ghost" className="text-primary hover:underline font-medium">
+              Sign In
+            </Button>
+            </Link>
         </p>
       </div>
     </div>

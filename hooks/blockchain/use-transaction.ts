@@ -1,3 +1,77 @@
+// "use client"
+
+// import { useState, useCallback } from "react"
+// import { useToast } from "@/hooks/use-toast"
+
+// export type TransactionStatus = "idle" | "confirming" | "pending" | "success" | "error"
+
+// export interface TransactionState {
+//   status: TransactionStatus
+//   hash?: string
+//   error?: string
+// }
+
+// export function useTransaction() {
+//   const { toast } = useToast()
+//   const [state, setState] = useState<TransactionState>({ status: "idle" })
+
+//   const execute = useCallback(
+//     async (txFn, options) => {
+//       try {
+//         setState({ status: "confirming" })
+//         toast({
+//           title: "Waiting for wallet confirmation...",
+//           description: "Please confirm the transaction in your wallet",
+//         })
+
+//         const tx = await txFn()
+
+//         setState({ status: "pending", hash: tx.hash })
+//         toast({
+//           title: "Transaction submitted",
+//           description: `Hash: ${tx.hash.slice(0, 10)}...${tx.hash.slice(-8)}`,
+//         })
+
+//         const result = await tx.wait()
+
+//         setState({ status: "success", hash: tx.hash })
+//         toast({
+//           title: options?.successMessage || "Transaction confirmed",
+//           description: "Your transaction was successful",
+//         })
+
+//         options?.onSuccess?.(result)
+//         return result
+//       } catch (error) {
+//         const message = error?.reason || error?.message || "Transaction failed"
+//         setState({ status: "error", error: message })
+//         toast({
+//           title: "Transaction failed",
+//           description: message,
+//           variant: "destructive",
+//         })
+//         return null
+//       }
+//     },
+//     [toast],
+//   )
+
+//   const reset = useCallback(() => {
+//     setState({ status: "idle" })
+//   }, [])
+
+//   return {
+//     ...state,
+//     isLoading: state.status === "confirming" || state.status === "pending",
+//     isConfirming: state.status === "confirming",
+//     isPending: state.status === "pending",
+//     isSuccess: state.status === "success",
+//     isError: state.status === "error",
+//     execute,
+//     reset,
+//   }
+// }
+
 "use client"
 
 import { useState, useCallback } from "react"
@@ -11,20 +85,31 @@ export interface TransactionState {
   error?: string
 }
 
+export interface TransactionOptions {
+  successMessage?: string
+  errorMessage?: string
+  onSuccess?: (result: any) => void
+  onError?: (error: any) => void
+}
+
 export function useTransaction() {
   const { toast } = useToast()
   const [state, setState] = useState<TransactionState>({ status: "idle" })
 
   const execute = useCallback(
-    async (txFn, options) => {
+    async (txFn: () => Promise<any>, options?: TransactionOptions) => {
       try {
+        console.log("Starting transaction execution...")
         setState({ status: "confirming" })
+        
         toast({
           title: "Waiting for wallet confirmation...",
           description: "Please confirm the transaction in your wallet",
         })
 
+        console.log("Calling transaction function...")
         const tx = await txFn()
+        console.log("Transaction sent:", tx)
 
         setState({ status: "pending", hash: tx.hash })
         toast({
@@ -32,7 +117,9 @@ export function useTransaction() {
           description: `Hash: ${tx.hash.slice(0, 10)}...${tx.hash.slice(-8)}`,
         })
 
+        console.log("Waiting for confirmation...")
         const result = await tx.wait()
+        console.log("Transaction confirmed:", result)
 
         setState({ status: "success", hash: tx.hash })
         toast({
@@ -42,14 +129,18 @@ export function useTransaction() {
 
         options?.onSuccess?.(result)
         return result
-      } catch (error) {
+      } catch (error: any) {
+        console.error("Transaction error:", error)
         const message = error?.reason || error?.message || "Transaction failed"
+        
         setState({ status: "error", error: message })
         toast({
-          title: "Transaction failed",
+          title: options?.errorMessage || "Transaction failed",
           description: message,
           variant: "destructive",
         })
+        
+        options?.onError?.(error)
         return null
       }
     },
