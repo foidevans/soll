@@ -2205,34 +2205,6 @@ function SignupPage() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                                variant: "outline",
-                                                onClick: async ()=>{
-                                                    console.log("=== Connection Test ===");
-                                                    console.log("Is Connected:", isConnected);
-                                                    console.log("Address:", address);
-                                                    console.log("Is Correct Network:", isCorrectNetwork);
-                                                    try {
-                                                        const { getProvider, getSigner } = await __turbopack_context__.A("[project]/lib/contracts/contract-factory.ts [app-client] (ecmascript, async loader)");
-                                                        const provider = getProvider();
-                                                        const signer = await getSigner();
-                                                        console.log("Provider:", provider);
-                                                        console.log("Signer:", signer);
-                                                        if (signer) {
-                                                            const signerAddress = await signer.getAddress();
-                                                            console.log("Signer Address:", signerAddress);
-                                                        }
-                                                    } catch (error) {
-                                                        console.error("Connection test failed:", error);
-                                                    }
-                                                },
-                                                className: "w-full mb-2",
-                                                children: "🔍 Test Connection"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/signup/page.tsx",
-                                                lineNumber: 443,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                 className: "flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90",
                                                 onClick: handleCreateAccount,
                                                 disabled: isCreating || isRegistering || !isConnected,
@@ -2242,7 +2214,7 @@ function SignupPage() {
                                                             className: "mr-2 h-4 w-4 animate-spin"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/signup/page.tsx",
-                                                            lineNumber: 477,
+                                                            lineNumber: 451,
                                                             columnNumber: 23
                                                         }, this),
                                                         getButtonText()
@@ -2254,14 +2226,14 @@ function SignupPage() {
                                                             className: "ml-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/signup/page.tsx",
-                                                            lineNumber: 483,
+                                                            lineNumber: 457,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/signup/page.tsx",
-                                                lineNumber: 470,
+                                                lineNumber: 444,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -2294,18 +2266,18 @@ function SignupPage() {
                                     children: "Sign In"
                                 }, void 0, false, {
                                     fileName: "[project]/app/signup/page.tsx",
-                                    lineNumber: 495,
+                                    lineNumber: 469,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/signup/page.tsx",
-                                lineNumber: 494,
+                                lineNumber: 468,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/signup/page.tsx",
-                        lineNumber: 492,
+                        lineNumber: 466,
                         columnNumber: 9
                     }, this)
                 ]

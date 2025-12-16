@@ -980,3 +980,6 @@ Import traces:
 [00:57:32.308] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/home color: rgb(120, 120, 120) color: inherit {"dp":"/home","o":"http://localhost:3000/home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867295778}
 [00:57:34.873] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867298314}
 [00:57:36.981] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765867300437}
+[01:05:36.338] Server  LOG      ✓ Compiled in 826ms
+[01:05:50.765] Server  LOG      ✓ Compiled in 851ms
+[01:05:55.036] Server  LOG      ✓ Compiled in 836ms

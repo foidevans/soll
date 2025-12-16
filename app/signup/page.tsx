@@ -440,33 +440,7 @@ const handleCreateAccount = async () => {
                 >
                   Back
                 </Button>
-                <Button
-  variant="outline"
-  onClick={async () => {
-    console.log("=== Connection Test ===")
-    console.log("Is Connected:", isConnected)
-    console.log("Address:", address)
-    console.log("Is Correct Network:", isCorrectNetwork)
-    
-    try {
-      const { getProvider, getSigner } = await import("@/lib/contracts/contract-factory")
-      const provider = getProvider()
-      const signer = await getSigner()
-      console.log("Provider:", provider)
-      console.log("Signer:", signer)
-      
-      if (signer) {
-        const signerAddress = await signer.getAddress()
-        console.log("Signer Address:", signerAddress)
-      }
-    } catch (error) {
-      console.error("Connection test failed:", error)
-    }
-  }}
-  className="w-full mb-2"
->
-  🔍 Test Connection
-</Button>
+              
                 <Button
                   className="flex-1 h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90"
                   onClick={handleCreateAccount}
